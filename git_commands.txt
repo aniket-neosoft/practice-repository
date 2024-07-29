@@ -9,3 +9,7 @@ git status = for current status
 
 git branch featurebranch1 = to create new branch
 git branch = lists all branches in working repository
+git restore --staged index.html = unstage changes
+git remote -v = git remote links dekh sakte hai 
+git remote remove origin = origin remove karne k liye
+git remote set-url origin https://github.com/user/repo2.git = origin set karne k liye
