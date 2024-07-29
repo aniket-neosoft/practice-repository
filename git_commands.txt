@@ -9,3 +9,7 @@ git status = for current status
 
 git branch featurebranch1 = to create new branch
 git branch = lists all branches in working repository
+
+
+git merge featurebranch1 = to merge any branch into another
+git branch -d featurebranch1 = it will delete the branch
