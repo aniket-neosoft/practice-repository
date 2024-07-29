@@ -1,0 +1,5 @@
+git shortlog = number of commits authorwise
+git log -2 = top 2 commits
+git log -2 --oneline = 2 wale ka one line
+git log -- ListDemo.html = finding commits where given files were part of that commit
+git log -- CSS/mystyle.css TableDemo.html = we can do the same for multiple files

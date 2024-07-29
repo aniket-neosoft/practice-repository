@@ -1,0 +1,15 @@
+/* Add this to styles.css */
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+}

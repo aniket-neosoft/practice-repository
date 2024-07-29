@@ -1,0 +1,84 @@
+/* Add this to styles.css */
+.categories {
+    padding: 2rem;
+    text-align: center;
+}
+
+.categories h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.category-grid {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 200px;
+}
+
+.category img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+
+.category h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .categories {
+        padding: 1rem;
+    }
+
+    .categories h2 {
+        font-size: 1.5rem;
+    }
+
+    .category {
+        width: 150px;
+        padding: 0.75rem;
+    }
+
+    .category h3 {
+        font-size: 1rem;
+    }
+
+    .category img {
+        margin-bottom: 0.75rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .categories {
+        padding: 1rem;
+    }
+
+    .categories h2 {
+        font-size: 1.25rem;
+    }
+
+    .category {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .category h3 {
+        font-size: 0.875rem;
+    }
+
+    .category img {
+        margin-bottom: 0.5rem;
+    }
+}
