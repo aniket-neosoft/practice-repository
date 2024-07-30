@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const navbar = document.getElementById('navbar');
 
     const navItems = [
-        { name: 'Home', href: './index.htm' },
+        { name: 'Home', href: './index.html' },
         { name: 'Products', href: './product.htm' },
         { name: 'Categories', href: './categories.htm' },
         { name: 'About Us', href: './aboutUs.htm' },
