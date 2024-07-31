@@ -1,11 +1,9 @@
-/* Ensure you include the path to this CSS file in your HTML head section */
 
 .product-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
-    /* Optional: adds space between the items */
 }
 
 .products h2 {
@@ -15,7 +13,6 @@
 
 .product {
     flex: 1 1 calc(33.333% - 20px);
-    /* Adjust the width and account for gap */
     box-sizing: border-box;
     border: 1px solid #ccc;
     padding: 10px;

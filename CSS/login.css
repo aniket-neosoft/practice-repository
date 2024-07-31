@@ -5,19 +5,7 @@ main {
     height: 80vh;
 }
 
-.errorblock {
-    margin-bottom: 10px;
-}
-
-.errorblock b {
-    color: red;
-    font-size: 12px; 
-    display: block; 
-    margin-top: 5px; 
-}
-
-
-.register {
+.login {
     background-color: #fff;
     padding: 20px;
     border-radius: 8px;
@@ -25,7 +13,7 @@ main {
     width: 300px;
 }
 
-.register h2 {
+.login h2 {
     text-align: center;
     margin-bottom: 20px;
 }
@@ -54,32 +42,43 @@ label {
     background-color: #e14e2b;
 }
 
+
+.errorblock {
+    margin-bottom: 10px; 
+}
+
+.errorblock b {
+    color: red; 
+    font-size: 12px; 
+    display: block; 
+    margin-top: 5px;
+}
+
 @media (max-width: 768px) {
     main {
-        height: auto;
+        height: auto; 
         padding: 20px;
     }
 
-    .register {
+    .login {
         width: 100%;
-        max-width: 400px;
+        max-width: 400px; 
     }
 }
 
-
 @media (max-width: 480px) {
     main {
-        height: auto;
+        height: auto; 
         padding: 15px;
     }
 
-    .register {
+    .login {
         width: 100%;
-        padding: 15px;
+        padding: 15px; 
     }
 
     .btn {
-        padding: 12px;
+        padding: 12px; 
         font-size: 18px;
     }
 }

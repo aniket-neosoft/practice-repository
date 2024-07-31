@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register - ShoeStore</title>
+    <title>Login - ShoeStore</title>
     <link rel="stylesheet" href="./CSS/home.css">
-    <link rel="stylesheet" href="./CSS/register.css">
+    <link rel="stylesheet" href="./CSS/login.css">
 </head>
 
 <body>
@@ -15,15 +15,9 @@
         <nav id="navbar"></nav>
     </header>
     <main>
-        <section class="register">
-            <h2>Register</h2>
-            <form action="#" method="post" onsubmit="return validateAll()">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                <div class="errorblock">
-                    <b id="error1"></b>
-                </div>
-                <br />
+        <section class="login">
+            <h2>Login</h2>
+            <form action="#" method="post">
                 <label for="email">Email:</label>
                 <input type="email" id="email" name="email" required>
                 <div class="errorblock">
@@ -36,13 +30,7 @@
                     <b id="error3"></b>
                 </div>
                 <br />
-                <label for="confirm_password">Confirm Password:</label>
-                <input type="password" id="confirm_password" name="confirm_password" required>
-                <div class="errorblock">
-                    <b id="error4"></b>
-                </div>
-                <br />
-                <button type="submit" class="btn">Register</button>
+                <button type="submit" class="btn">Login</button>
                 <br>
                 <button type="reset" class="btn">Reset</button>
             </form>
@@ -51,9 +39,9 @@
     <footer>
         <p>&copy; 2024 ShoeStore. All rights reserved.</p>
     </footer>
-    <script src="../JS/navbar.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="./JS/form.js"></script>
+    <script src="../JS/navbar.js"></script>
+    <script src="../JS/form.js"></script>
 </body>
 
 </html>

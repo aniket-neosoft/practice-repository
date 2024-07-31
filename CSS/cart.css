@@ -1,4 +1,4 @@
-/* Add this to styles.css */
+
 .cart {
     padding: 2rem;
     text-align: center;
@@ -51,7 +51,6 @@
     background-color: #e14e2b;
 }
 
-/* Media Queries */
 @media (max-width: 768px) {
     .cart {
         padding: 1rem;
