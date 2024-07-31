@@ -6,7 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
         { name: 'Products', href: './product.htm' },
         { name: 'Categories', href: './categories.htm' },
         { name: 'About Us', href: './aboutUs.htm' },
-        { name: 'Contact', href: './contact.htm' },
+        { name: 'Register', href: './register.htm' },
         { name: 'Cart', href: './cart.htm' }
     ];
 
